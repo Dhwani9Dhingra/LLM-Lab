@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "context": "Type 2 diabetes is characterized by insulin resistance and relative insulin deficiency. First-line treatment is typically metformin, followed by sulfonylureas or SGLT2 inhibitors. Lifestyle modifications are crucial for management.",
+    "question": "What is the first-line treatment for type 2 diabetes?",
+    "reference": "metformin",
+    "predictions": {
+      "flan_t5": "metformin",
+      "biogpt": "Metformin is the first-line treatment for type 2 diabetes. < / FREETEXT > < / ABSTRACT > \u2583",
+      "clinicalbert": "sulfonylureas or SGLT2 inhibitors. Lifestyle modifications are crucial"
+    },
+    "scores": {
+      "flan_t5": {
+        "rouge1": 1.0,
+        "rouge2": 0.0,
+        "rougeL": 1.0
+      },
+      "biogpt": {
+        "rouge1": 0.15384615384615385,
+        "rouge2": 0.0,
+        "rougeL": 0.15384615384615385
+      },
+      "clinicalbert": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      }
+    }
+  },
+  {
+    "id": 2,
+    "context": "Myocardial infarction occurs when blood flow decreases to the coronary artery, causing heart muscle damage. Primary symptoms include chest pain, shortness of breath, and nausea.",
+    "question": "What are the primary symptoms of myocardial infarction?",
+    "reference": "chest pain, shortness of breath, nausea",
+    "predictions": {
+      "flan_t5": "chest pain, shortness of breath, and nausea",
+      "biogpt": "Chest pain. < / FREETEXT > < / ABSTRACT > \u2583",
+      "clinicalbert": "Myocardial"
+    },
+    "scores": {
+      "flan_t5": {
+        "rouge1": 0.923076923076923,
+        "rouge2": 0.7272727272727272,
+        "rougeL": 0.923076923076923
+      },
+      "biogpt": {
+        "rouge1": 0.4,
+        "rouge2": 0.25,
+        "rougeL": 0.4
+      },
+      "clinicalbert": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      }
+    }
+  },
+  {
+    "id": 3,
+    "context": "ACE inhibitors like lisinopril are used for hypertension management. They work by inhibiting angiotensin-converting enzyme, reducing vasoconstriction.",
+    "question": "How do ACE inhibitors work?",
+    "reference": "inhibiting angiotensin-converting enzyme, reducing vasoconstriction",
+    "predictions": {
+      "flan_t5": "inhibiting angiotensin-converting enzyme",
+      "biogpt": "ACE inhibitors work by inhibiting angiotensin-converting enzyme, reducing vasoconstriction. < / FREETEXT > < / ABSTRACT > \u2583",
+      "clinicalbert": "hypertension management. They work"
+    },
+    "scores": {
+      "flan_t5": {
+        "rouge1": 0.8,
+        "rouge2": 0.7499999999999999,
+        "rougeL": 0.8
+      },
+      "biogpt": {
+        "rouge1": 0.6666666666666666,
+        "rouge2": 0.625,
+        "rougeL": 0.6666666666666666
+      },
+      "clinicalbert": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      }
+    }
+  },
+  {
+    "id": 4,
+    "context": "Asthma is a chronic inflammatory disease of the airways characterized by bronchospasm, wheezing, and shortness of breath. Rescue inhalers contain short-acting beta-agonists like albuterol.",
+    "question": "What medication is in rescue inhalers for asthma?",
+    "reference": "albuterol",
+    "predictions": {
+      "flan_t5": "beta-agonists",
+      "biogpt": "The combination of albuterol and ipratropium is the most effective rescue inhaler for asthma. < / FREETEXT > < / ABSTRACT > \u2583",
+      "clinicalbert": "inhalers contain short-acting beta-agonists like albuterol"
+    },
+    "scores": {
+      "flan_t5": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      },
+      "biogpt": {
+        "rouge1": 0.11764705882352941,
+        "rouge2": 0.0,
+        "rougeL": 0.11764705882352941
+      },
+      "clinicalbert": {
+        "rouge1": 0.2222222222222222,
+        "rouge2": 0.0,
+        "rougeL": 0.2222222222222222
+      }
+    }
+  },
+  {
+    "id": 5,
+    "context": "Antibiotics are used to treat bacterial infections. Overuse can lead to antibiotic resistance. Penicillin was the first widely used antibiotic, discovered by Alexander Fleming in 1928.",
+    "question": "Who discovered penicillin?",
+    "reference": "Alexander Fleming",
+    "predictions": {
+      "flan_t5": "Alexander Fleming",
+      "biogpt": "Alexander Fleming. < / FREETEXT > < / ABSTRACT > \u2583",
+      "clinicalbert": "Penicillin was the first widely used antibiotic, discovered by Alexander"
+    },
+    "scores": {
+      "flan_t5": {
+        "rouge1": 1.0,
+        "rouge2": 1.0,
+        "rougeL": 1.0
+      },
+      "biogpt": {
+        "rouge1": 0.6666666666666666,
+        "rouge2": 0.5,
+        "rougeL": 0.6666666666666666
+      },
+      "clinicalbert": {
+        "rouge1": 0.16666666666666669,
+        "rouge2": 0.0,
+        "rougeL": 0.16666666666666669
+      }
+    }
+  }
+]
